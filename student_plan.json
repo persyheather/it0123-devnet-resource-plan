@@ -1,0 +1,39 @@
+{
+  "student_name": "Trojan Kane Perseus V. Castro",
+  "section": "TN32",
+  "ai_tool": "ChatGPT",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#try-it-out",
+      "ai_recommendation_summary": "The team needs immediate access and cannot wait for provisioning. Because the students only need safe, read-only API practice and do not require administrative privileges, a shared environment is appropriate.",
+      "verification_status": "verified",
+      "rationale": "Cisco website describe AO sandboxes as instant access, readily available, API access in a shared environment which matches the use case and ai suggestion."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#try-it-out",
+      "ai_recommendation_summary": "The team needs administrative access in a private environment. Its ability to schedule access, connect through a VPN, and tolerate setup time matches the reservation model.",
+      "verification_status": "verified",
+      "rationale": "Unlike in AO sandboxes, reservation sandboxes are mainly used for deep access of a private environment with the ability to schedule reservations, connect to VPN and accomodate possibility of setup time. This information from the CISCO FAQ validates the suggestion made by ChatGPT."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "The beginner needs structured, step-by-step instruction and guided practice before working independently. Immediate access to configurable or administrative devices is not required.",
+      "verification_status": "verified",
+      "rationale": "CAse 3 was verified because the ai suggestion is complemented by the information presented in Cisco's home page for Learning Labs. Learning Labs is apt for the use case because it provides service that is perfect for beginners to learn Cisco concepts. The access is instant and tutorials can be viewed individually in one's own time including step-by-step instructions. This ease of acces is perfect for solo learners."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/site/codeexchange-about-page/",
+      "ai_recommendation_summary": "The developer wants to find and examine existing network-automation code repositories before creating a new solution. This is code discovery and reuse, not guided training or access to a live test environment.",
+      "verification_status": "verified",
+      "rationale": "Cisco has an online public reposiory for shared codes that can be used repeatedly or for reference. COde exchange allows an individual to examine old solutions that can support a newly formed one. This practice can be done independently wherein there is no need for live guidance from an expert. Once again, the AI generated answer was apt for the use case as verified through Cisco website."
+    }
+  ]
+}
